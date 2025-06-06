@@ -19,4 +19,4 @@ module.exports = defineConfig({
       use: { ...devices["Desktop Chrome"] },
     },
   ],
-});
+}); 

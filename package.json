@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "npx live-server",
     "browser-install": "npx playwright install-deps && npx playwright install chromium",
     "test": "npx playwright test",
     "test-ui": "npx playwright test --ui",
@@ -14,7 +15,8 @@
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.49.1",
-    "@types/node": "^20.11.20"
+    "@types/node": "^20.11.20",
+    "prettier": "^3.5.3"
   },
   "dependencies": {
     "node-html-parser": "^7.0.1"
